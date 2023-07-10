@@ -8,6 +8,7 @@ public class FunApplication {
 	
 	@GetMapping("/")
 	public String WelcomeController() {
+		System.out.println("first controller-");
 		return "Hello World";
 		
 	}
